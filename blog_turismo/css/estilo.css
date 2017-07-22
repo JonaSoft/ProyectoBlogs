@@ -1,0 +1,71 @@
+body{
+  background: url("../img/fondo-turismo.jpg") no-repeat center center fixed;
+  background-size:cover;
+}
+.alturanavegador{
+   background: none;
+
+   height: 200px;
+}
+.fondoprimario{
+  width: 100%;
+  height: 200px;
+  background-size: 100%;
+  position:fixed;
+}
+.transparencia{
+   background-color: rgba(255, 255, 255, 0.01);
+}
+li{
+  margin-bottom:  15px;
+}
+.redes>li>a{
+  font-size: 50px;
+  background-color: rgba(255,255,255,0.65);
+  border-radius: 8px;
+}
+.logo{
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+.imggaleriacentral{
+   width: 100%;
+   min-width: 150px;
+   min-height: 42rem;
+   max-height: 48rem;
+   border: 2px solid white;
+}
+.imggaleriaizquierdosuperior{
+   width: 100%;
+   height: 18rem;
+}
+.imggaleriaizquierdoinferior{
+   width: 100%;
+   height: 20rem;
+}
+.imggaleriaderecho{
+   width: 100%;
+   max-height: 12rem;
+}
+.margen{
+   margin-top: 10px;
+
+}
+.imgarticulo{
+   float: left;
+   width: 100%;
+   max-width: 330px;
+   min-width: 250px;
+   height: 250px;
+   min-height: 220px;
+   margin-top: 5px;
+   margin-right: 5px;
+}
+.imgautor{
+  margin-top: 10px;
+  width: 120px;
+  height: 150px;
+}
